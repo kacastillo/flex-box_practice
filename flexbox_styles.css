@@ -1,12 +1,124 @@
-/* 
+ /* 
 TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
 
+header .logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header .user-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem;
+}
+
+/* main cards */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 3rem 3rem;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.card img {
+  align-self: center;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card button {
+  margin-top: 1.75rem;
+  padding: 0.6rem 1.6rem;
+}
+
+/* Bottom feature */
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 0 3rem 3rem;
+}
+
+.feature-item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.feature-icon {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Footer */
+footer {
+  background-color:#000000ce;
+  color: #e5e7eb;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 2.5rem 3rem 1.5rem;
+}
+
+.footer-section a {
+  display: block;
+  margin-top: 0.4rem;
+}
+
+.footer-bottom {
+  padding: 1rem 3rem 2rem;
+}
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
-*/
+ */
 
+
+/* Layout: header, main, footer */
 
